@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Basic HTML skeleton for the project" />
+		<title>Github-test-</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<h1>Project: Github-test-</h1>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="hero">
+				<h2>Welcome</h2>
+				<p>This is a minimal HTML skeleton. Replace this content with your project code.</p>
+			</section>
+
+			<section id="about">
+				<h2>About</h2>
+				<p>Describe the project here.</p>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; <span id="year"></span> Github-test-</p>
+		</footer>
+
+		<script>
+			// Small helper to keep footer year current
+			document.getElementById('year').textContent = new Date().getFullYear();
+		</script>
+	</body>
+</html>
